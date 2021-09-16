@@ -1,4 +1,3 @@
-- #Projects #AI
 - Introduction
     - I am working on a project to detect genuine from fake smiles in images with machine learning.
 - To begin with I studied how to classify images of smiling faces from non-smiling faces.
@@ -18,6 +17,6 @@
         - [Smile Recognition Using OpenCV and scikit-learn](https://flothesof.github.io/smile-recognition.html)
             - dataset - [Olivetti faces dataset](https://scikit-learn.org/0.19/modules/generated/sklearn.datasets.fetch_olivetti_faces.html#sklearn.datasets.fetch_olivetti_faces)
             - model - Support Vector Classifier
-            - Following the tutorial - labeling data and training SVM model - [colab](#)
+            - Following the tutorial - labeling data and training SVM model - [colab](https://colab.research.google.com/drive/1kh4b7vf3ksqcggffdZwcIYJFMCtpDmd9?usp=sharing)
     - Next I want to create a ConvNet model and train in on MPLAB GENKI database to classify smiling from non smiling images
         - TODO
