@@ -1,1 +1,23 @@
-# smile-detection
+- #Projects #AI
+- Introduction
+    - I am working on a project to detect genuine from fake smiles in images with machine learning.
+- To begin with I studied how to classify images of smiling faces from non-smiling faces.
+    - In researching for this part of the project I came across some useful papers and datasets and well as some tutorials that I followed and recreated.
+    - Research
+        - [An Evolutive Approach for Smile Recognition in Video Sequences](https://www.researchgate.net/publication/273275594_An_Evolutive_Approach_for_Smile_Recognition_in_Video_Sequences)
+        - [The MPLab GENKI Database](https://inc.ucsd.edu/mplab/398.php)
+        - [Smile Detection Using Data Amalgamation](https://www.sciencedirect.com/science/article/pii/S1877050920308632/pdf?crasolve=1&iv=6c23260d58c9a7f8ec53a82569ae1245&token=36323538623463646139643630343239636336366464323532663833643733643564306330663330663836613938396230613866663337316134613330343161633362363a396535353164316336613261363062306437343739633733&text=86124674c58bc95c58d5ad5896a462dc113ef6799c411d1eb65ce238640190f0933eca69ab9e03dfab359bfa260238425e51c6614b0e76bf5ecc5731b65736b2d1ca18200cfb0c3d0ce10660f3a850546b094ee918bd27a8ac05e0b4a8e045d47228c39cc5b4205c90cb24d6f8ca6c28028033a8a13ecfc2d8204447295088cba3e8fa59ac1d15148e6da236d85d9c71d4d0171881e4e93c84ee29c644307004ef1cdecdb1d14024a60169373a4f6fbfe3d981504e12391497de39511dc860580732ecf736ae67362f895725928e142e74fe3688304dea2741745c6f35fb6c8980e562697d481d54d83afc7e5a1e8b51d103823e3f2c6f49210d52923256b3975b403de5e1184a7a80fa39c1997483e87e392311a25ea2e973afcd1b559a846c68b10407fa7c0d064d04822822c87347&original=3f6d64353d3030313664373964343439323964353138306634656239623632623231643934267069643d312d73322e302d53313837373035303932303330383633322d6d61696e2e706466)
+        - [Labeled Faces in the Wild dataset](http://vis-www.cs.umass.edu/lfw/)
+            - [LFWcrop Face Dataset](https://conradsanderson.id.au/lfwcrop/)
+                - [Dataset for Smile Detection from Face Images](https://data.mendeley.com/datasets/yz4v8tb3tp/5)
+    - Tutorial
+        - [Smile detection with OpenCV, Keras, and TensorFlow](https://www.pyimagesearch.com/2021/07/14/smile-detection-with-opencv-keras-and-tensorflow/)
+            - dataset - https://github.com/hromi/SMILEsmileD
+            - Network model - http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
+            - Following the tutorial - model creation and training  - [colab](https://colab.research.google.com/drive/1AIN1Xqa5PI1txhy9Je1nEpYyS9eYFww5?usp=sharing)
+        - [Smile Recognition Using OpenCV and scikit-learn](https://flothesof.github.io/smile-recognition.html)
+            - dataset - [Olivetti faces dataset](https://scikit-learn.org/0.19/modules/generated/sklearn.datasets.fetch_olivetti_faces.html#sklearn.datasets.fetch_olivetti_faces)
+            - model - Support Vector Classifier
+            - Following the tutorial - labeling data and training SVM model - [colab](#)
+    - Next I want to create a ConvNet model and train in on MPLAB GENKI database to classify smiling from non smiling images
+        - TODO
